@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Seguro No Pagamos Coooperativa</title>
+            <meta name="description" content="Seguros para tu automóvil, casa o herramienta de trabajo">
+            <meta name="keywords" content="seguros, precio, aseguradora, asesor, automóvil">
+            <meta name="author" content="Agustín Pérez">
+            <span class="pln">
+            </span><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"><span class="pln">
+            </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><span class="pln">
+            </span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"><span class="pln">
+            </span>
+            <link rel="stylesheet" href="index.css">
+        </head>
+
+    <body class="container">
+        
+        <section id="header">
+            <header class="header">
+                <div>
+                  <img src="SNPLOGO.jpg" alt="Logo">
+                    <p class="logo-p">Seguro No Pagamos Coooperativa</p>  
+                </div>
+                <nav>
+                    <ul class="navList">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Sobre Nosotros</a></li>
+                        <li><a href="">Portafolio</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+            
+        </section>
+
+
+
+        <section id="contenido">
+            <h1>Formulario de Contacto</h1>
+            <p>Por favor completa con tus datos y luego un asesor se contactara contigo</p>
+
+        <form>
+            <div>
+                <div>
+                    <label for="name">Nombre</label> <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                </div>
+                
+                <div>
+                    <label for="last-name">Apellido</label> <input type="text" id="last-name" name="last-name" placeholder="Ingrese su apellido">
+                </div>
+                
+                <div>
+                    <label for="dni">DNI</label> <input type="number" id="dni" name="DNI" placeholder="Ingrese su DNI">
+                </div>
+                
+                <div>
+                    <label for="email">Email</label> <input type="email" id="email" name="email" placeholder="Ingrese su email">
+                </div>
+                
+                <div>
+                    <label for="phone">Teléfono</label> <input type="tel" id="phone" name="phone" placeholder="Ingrese su Telefono">
+                </div>
+                
+                <div id="tipoSeguroE1">
+                    <label for="tipoSeguro">Tipo de seguro</label> 
+                    <select id="tipoSeguro" name="tipoSeguro" required>
+                        <option value="" disabled selected>Seleccione el tipo de seguro</option>
+                        <option value="bas">Básico</option>
+                        <option value="int">Intermedio</option>
+                        <option value="pre">Premium</option>
+                    </select>
+                </div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        </section>
+        <section id="footer">
+            <footer>
+            <div>
+                <p class="message" id="message">El valor estimado es:</p>
+            </div>
+        </footer>
+        </section>
+            
+    <script src="index.js"></script>    
+    </body>
+
+
+
+
+</html>
+
+
